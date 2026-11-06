@@ -1,0 +1,75 @@
+/*
+ * The phone follows visualViewport.height. Query that container instead of the
+ * browser's layout viewport so toolbar/keyboard changes use the same layout.
+ *
+ * Required markup: .order-content wraps .order-header and .order-body; the
+ * outside handle and .order-footer remain direct children of .order-sheet.
+ */
+#phone {
+  container-name: phone;
+  container-type: size;
+}
+
+/* Keep the original flex children and their exact Figma gaps at normal height. */
+.order-content {
+  display: contents;
+}
+
+@container phone (max-height: 550px) {
+  .order-sheet {
+    height: calc(100% - 36px);
+    max-height: calc(100% - 36px);
+    min-height: 0;
+  }
+
+  /*
+   * At short heights the header and the white card scroll as one area. The
+   * footer stays outside this scroller, so its button never depends on the
+   * amount of food or the expanded details.
+   */
+  .order-content {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .order-content::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Use the source header rather than introducing a second compact design. */
+  .order-sheet .order-header {
+    flex: 0 0 232px;
+    height: 232px;
+    padding-bottom: 20px;
+  }
+
+  .order-sheet .progress {
+    height: 72px;
+  }
+
+  /* Keep the white card's clipping for the original per-row details motion. */
+  .order-content > .order-body {
+    flex: 0 0 auto;
+    min-height: auto;
+    overflow: hidden;
+  }
+
+  /* A single scroll owner avoids a tiny nested scrolling viewport. */
+  .order-content > .order-body > .order-scroll {
+    height: auto;
+    overflow: visible;
+  }
+
+  /* The existing absent-footer height transition still applies unchanged. */
+  .order-sheet > .order-footer {
+    flex: 0 0 auto;
+  }
+}
