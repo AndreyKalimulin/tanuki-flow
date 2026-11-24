@@ -15,7 +15,12 @@ export const DATA = {
         "assets/catalogue/7c4d0.svg"
       ],
       "hit": true,
-      "favourite": false
+      "favourite": false,
+      "weight": "190 г",
+      "categories": [
+        "Хиты",
+        "Роллы"
+      ]
     },
     "thai-chicken-rice": {
       "id": "thai-chicken-rice",
@@ -32,7 +37,11 @@ export const DATA = {
         "assets/catalogue/7c4d0.svg"
       ],
       "hit": true,
-      "favourite": true
+      "favourite": true,
+      "weight": "300 г",
+      "categories": [
+        "Хиты"
+      ]
     },
     "philadelphia-roll": {
       "id": "philadelphia-roll",
@@ -49,7 +58,12 @@ export const DATA = {
         "assets/catalogue/51eb4.svg"
       ],
       "hit": true,
-      "favourite": false
+      "favourite": false,
+      "weight": "245 г",
+      "categories": [
+        "Хиты",
+        "Роллы"
+      ]
     },
     "arigato-roll": {
       "id": "arigato-roll",
@@ -65,7 +79,12 @@ export const DATA = {
         "assets/catalogue/51eb4.svg"
       ],
       "hit": true,
-      "favourite": false
+      "favourite": false,
+      "weight": "150 г",
+      "categories": [
+        "Хиты",
+        "Роллы"
+      ]
     },
     "duck-gyoza": {
       "id": "duck-gyoza",
@@ -82,7 +101,12 @@ export const DATA = {
         "assets/catalogue/bd52d.svg"
       ],
       "hit": true,
-      "favourite": false
+      "favourite": false,
+      "weight": "210 г",
+      "categories": [
+        "Новинки",
+        "Димсамы"
+      ]
     },
     "california-roll": {
       "id": "california-roll",
@@ -99,7 +123,12 @@ export const DATA = {
         "assets/catalogue/51eb4.svg"
       ],
       "hit": true,
-      "favourite": false
+      "favourite": false,
+      "weight": "190 г",
+      "categories": [
+        "Хиты",
+        "Роллы"
+      ]
     },
     "nicoise": {
       "id": "nicoise",
@@ -115,42 +144,289 @@ export const DATA = {
         "assets/catalogue/51eb4.svg"
       ],
       "hit": true,
-      "favourite": false
+      "favourite": false,
+      "weight": "270 г",
+      "categories": []
     },
     "shrimp-tempura": {
       "id": "shrimp-tempura",
       "title": "Креветки темпура",
       "price": 685,
       "salePrice": null,
-      "image": "assets/cart/product-shrimp-tempura-3a1f4.jpg"
+      "image": "assets/cart/product-shrimp-tempura-3a1f4.jpg",
+      "rating": 5,
+      "reviews": "",
+      "weight": "190 г",
+      "categories": []
     },
     "mussels-chizu": {
       "id": "mussels-chizu",
       "title": "Мидии чизу",
       "price": 755,
       "salePrice": null,
-      "image": "assets/cart/product-mussels-chizu-48834.jpg"
+      "image": "assets/cart/product-mussels-chizu-48834.jpg",
+      "rating": 4.5,
+      "reviews": "",
+      "weight": "220 г",
+      "categories": [
+        "Хиты"
+      ]
     },
     "tea-warm-evening": {
       "id": "tea-warm-evening",
       "title": "Чай Теплый вечер",
       "price": 625,
       "salePrice": 313,
-      "image": "assets/cart/product-tea-warm-evening-64ef9.jpg"
+      "image": "assets/cart/product-tea-warm-evening-64ef9.jpg",
+      "rating": 4.5,
+      "reviews": "",
+      "weight": "600 мл",
+      "categories": []
     },
     "miso-soup": {
       "id": "miso-soup",
       "title": "Мисо суп",
       "price": 215,
       "salePrice": null,
-      "image": "assets/cart/recommend-miso-soup-60a83.jpg"
+      "image": "assets/cart/recommend-miso-soup-60a83.jpg",
+      "rating": 4,
+      "reviews": "",
+      "weight": "220 г",
+      "categories": []
     },
     "mochi-mango": {
       "id": "mochi-mango",
       "title": "MoMochi Тропический манго",
       "price": 290,
       "salePrice": null,
-      "image": "assets/cart/recommend-mochi-mango-8de5b.jpg"
+      "image": "assets/cart/recommend-mochi-mango-8de5b.jpg",
+      "rating": 5,
+      "reviews": "",
+      "weight": "40 г",
+      "categories": []
+    },
+    "prime-roll": {
+      "id": "prime-roll",
+      "title": "Ролл Прайм",
+      "price": 895,
+      "image": "assets/catalogue/prime-roll.jpg",
+      "rating": 5,
+      "reviews": "",
+      "hit": true,
+      "weight": "235 г",
+      "categories": [
+        "Хиты",
+        "Роллы"
+      ]
+    },
+    "california-hot": {
+      "id": "california-hot",
+      "title": "Ролл Калифорния Хот",
+      "price": 645,
+      "image": "assets/catalogue/california-hot.jpg",
+      "rating": 4.5,
+      "reviews": "",
+      "hit": true,
+      "weight": "190 г",
+      "categories": [
+        "Хиты",
+        "Роллы"
+      ]
+    },
+    "avocado-maki": {
+      "id": "avocado-maki",
+      "title": "Маки с авокадо",
+      "price": 280,
+      "image": "assets/catalogue/avocado-maki.jpg",
+      "rating": 4,
+      "reviews": "",
+      "weight": "85 г",
+      "categories": [
+        "Роллы"
+      ]
+    },
+    "mega-salmon-roll": {
+      "id": "mega-salmon-roll",
+      "title": "Мега-ролл с лососем",
+      "price": 840,
+      "image": "assets/catalogue/mega-salmon-roll.jpg",
+      "rating": 5,
+      "reviews": "",
+      "weight": "300 г",
+      "categories": [
+        "Роллы"
+      ]
+    },
+    "salmon-sushi": {
+      "id": "salmon-sushi",
+      "title": "Суши с лососем",
+      "price": 210,
+      "image": "assets/catalogue/salmon-sushi.jpg",
+      "rating": 5,
+      "reviews": "",
+      "weight": "25 г",
+      "categories": [
+        "Суши"
+      ]
+    },
+    "eel-sushi": {
+      "id": "eel-sushi",
+      "title": "Суши с угрем",
+      "price": 200,
+      "image": "assets/catalogue/eel-sushi.jpg",
+      "rating": 4.5,
+      "reviews": "",
+      "weight": "23 г",
+      "categories": [
+        "Суши"
+      ]
+    },
+    "shrimp-sushi": {
+      "id": "shrimp-sushi",
+      "title": "Суши с креветкой",
+      "price": 200,
+      "image": "assets/catalogue/shrimp-sushi.jpg",
+      "rating": 4.5,
+      "reviews": "",
+      "weight": "23 г",
+      "categories": [
+        "Суши"
+      ]
+    },
+    "spicy-salmon-gunkan": {
+      "id": "spicy-salmon-gunkan",
+      "title": "Гункан Лосось спайси",
+      "price": 205,
+      "image": "assets/catalogue/spicy-salmon-gunkan.jpg",
+      "rating": 4,
+      "reviews": "",
+      "weight": "30 г",
+      "categories": [
+        "Суши"
+      ]
+    },
+    "salmon-sashimi": {
+      "id": "salmon-sashimi",
+      "title": "Сашими лосось",
+      "price": 760,
+      "image": "assets/catalogue/salmon-sashimi.jpg",
+      "rating": 5,
+      "reviews": "",
+      "weight": "90 г",
+      "categories": [
+        "Сашими"
+      ]
+    },
+    "tuna-sashimi": {
+      "id": "tuna-sashimi",
+      "title": "Сашими тунец",
+      "price": 640,
+      "image": "assets/catalogue/tuna-sashimi.jpg",
+      "rating": 4.5,
+      "reviews": "",
+      "weight": "90 г",
+      "categories": [
+        "Сашими"
+      ]
+    },
+    "akira-set": {
+      "id": "akira-set",
+      "title": "Акира сет",
+      "price": 3230,
+      "image": "assets/catalogue/akira-set.jpg",
+      "rating": 5,
+      "reviews": "",
+      "salePrice": 2860,
+      "weight": "900 г",
+      "categories": [
+        "Новинки",
+        "Сеты"
+      ]
+    },
+    "fuji-set": {
+      "id": "fuji-set",
+      "title": "Фудзи сет",
+      "price": 2505,
+      "image": "assets/catalogue/fuji-set.jpg",
+      "rating": 4.5,
+      "reviews": "",
+      "salePrice": 2290,
+      "weight": "720 г",
+      "categories": [
+        "Сеты"
+      ]
+    },
+    "beef-dimsum": {
+      "id": "beef-dimsum",
+      "title": "Дим-самы с говядиной",
+      "price": 540,
+      "image": "assets/catalogue/beef-dimsum.jpg",
+      "rating": 4.5,
+      "reviews": "",
+      "weight": "210 г",
+      "categories": [
+        "Новинки",
+        "Димсамы"
+      ]
+    },
+    "tom-yum-shrimp-gyoza": {
+      "id": "tom-yum-shrimp-gyoza",
+      "title": "Гедза с креветками том-ям",
+      "price": 565,
+      "image": "assets/catalogue/tom-yum-shrimp-gyoza.jpg",
+      "rating": 5,
+      "reviews": "",
+      "weight": "170 г",
+      "categories": [
+        "Новинки",
+        "Димсамы"
+      ]
+    },
+    "salmon-shrimp-dimsum": {
+      "id": "salmon-shrimp-dimsum",
+      "title": "Дим-самы с лососем и креветкой",
+      "price": 555,
+      "image": "assets/catalogue/salmon-shrimp-dimsum.jpg",
+      "rating": 4.5,
+      "reviews": "",
+      "weight": "164 г",
+      "categories": [
+        "Димсамы"
+      ]
+    },
+    "tom-kha-kai": {
+      "id": "tom-kha-kai",
+      "title": "Том Кха Кай",
+      "price": 670,
+      "image": "assets/catalogue/tom-kha-kai.jpg",
+      "rating": 5,
+      "reviews": "",
+      "weight": "300 г",
+      "categories": [
+        "Новинки"
+      ]
+    },
+    "duck-ramen": {
+      "id": "duck-ramen",
+      "title": "Рамен с уткой",
+      "price": 590,
+      "image": "assets/catalogue/duck-ramen.jpg",
+      "rating": 4.5,
+      "reviews": "",
+      "weight": "525 г",
+      "categories": []
+    },
+    "green-tea-mochi": {
+      "id": "green-tea-mochi",
+      "title": "MoMochi Зеленый чай",
+      "price": 290,
+      "image": "assets/catalogue/green-tea-mochi.jpg",
+      "rating": 4,
+      "reviews": "",
+      "weight": "40 г",
+      "categories": [
+        "Новинки"
+      ]
     }
   },
   "slots": [
@@ -158,7 +434,7 @@ export const DATA = {
     "thai-chicken-rice",
     "philadelphia-roll",
     "arigato-roll",
-    "tanuki-roll",
+    "prime-roll",
     "duck-gyoza",
     "california-roll",
     "nicoise",
@@ -166,7 +442,24 @@ export const DATA = {
     "mussels-chizu",
     "tea-warm-evening",
     "miso-soup",
-    "mochi-mango"
+    "mochi-mango",
+    "california-hot",
+    "avocado-maki",
+    "mega-salmon-roll",
+    "salmon-sushi",
+    "eel-sushi",
+    "shrimp-sushi",
+    "spicy-salmon-gunkan",
+    "salmon-sashimi",
+    "tuna-sashimi",
+    "akira-set",
+    "fuji-set",
+    "beef-dimsum",
+    "tom-yum-shrimp-gyoza",
+    "salmon-shrimp-dimsum",
+    "tom-kha-kai",
+    "duck-ramen",
+    "green-tea-mochi"
   ],
   "categories": [
     "Хиты",
@@ -362,3 +655,10 @@ export const DATA = {
     "mochi-mango"
   ]
 };
+
+// Keep the original Figma star artwork and use the same scale for the expanded menu.
+for (const product of Object.values(DATA.products)) {
+  if (product.stars) continue;
+  product.stars = Array(Math.floor(product.rating)).fill(DATA.icons.starFilled);
+  if (!Number.isInteger(product.rating)) product.stars.push(DATA.icons.ratingFinalStar);
+}
