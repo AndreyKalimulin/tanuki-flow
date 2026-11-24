@@ -155,7 +155,7 @@ export const DATA = {
       "salePrice": null,
       "image": "assets/cart/product-shrimp-tempura-3a1f4.jpg",
       "rating": 5,
-      "reviews": "",
+      "reviews": "1,1к",
       "weight": "190 г",
       "categories": []
     },
@@ -166,7 +166,7 @@ export const DATA = {
       "salePrice": null,
       "image": "assets/cart/product-mussels-chizu-48834.jpg",
       "rating": 4.5,
-      "reviews": "",
+      "reviews": "3,2к",
       "weight": "220 г",
       "categories": [
         "Хиты"
@@ -179,7 +179,7 @@ export const DATA = {
       "salePrice": 313,
       "image": "assets/cart/product-tea-warm-evening-64ef9.jpg",
       "rating": 4.5,
-      "reviews": "",
+      "reviews": "328",
       "weight": "600 мл",
       "categories": []
     },
@@ -190,7 +190,7 @@ export const DATA = {
       "salePrice": null,
       "image": "assets/cart/recommend-miso-soup-60a83.jpg",
       "rating": 4,
-      "reviews": "",
+      "reviews": "3,4к",
       "weight": "220 г",
       "categories": []
     },
@@ -201,7 +201,7 @@ export const DATA = {
       "salePrice": null,
       "image": "assets/cart/recommend-mochi-mango-8de5b.jpg",
       "rating": 5,
-      "reviews": "",
+      "reviews": "746",
       "weight": "40 г",
       "categories": []
     },
@@ -211,7 +211,7 @@ export const DATA = {
       "price": 895,
       "image": "assets/catalogue/prime-roll.jpg",
       "rating": 5,
-      "reviews": "",
+      "reviews": "7,9к",
       "hit": true,
       "weight": "235 г",
       "categories": [
@@ -225,7 +225,7 @@ export const DATA = {
       "price": 645,
       "image": "assets/catalogue/california-hot.jpg",
       "rating": 4.5,
-      "reviews": "",
+      "reviews": "10,2к",
       "hit": true,
       "weight": "190 г",
       "categories": [
@@ -239,7 +239,7 @@ export const DATA = {
       "price": 280,
       "image": "assets/catalogue/avocado-maki.jpg",
       "rating": 4,
-      "reviews": "",
+      "reviews": "2,8к",
       "weight": "85 г",
       "categories": [
         "Роллы"
@@ -251,7 +251,7 @@ export const DATA = {
       "price": 840,
       "image": "assets/catalogue/mega-salmon-roll.jpg",
       "rating": 5,
-      "reviews": "",
+      "reviews": "186",
       "weight": "300 г",
       "categories": [
         "Роллы"
@@ -263,7 +263,7 @@ export const DATA = {
       "price": 210,
       "image": "assets/catalogue/salmon-sushi.jpg",
       "rating": 5,
-      "reviews": "",
+      "reviews": "3,1к",
       "weight": "25 г",
       "categories": [
         "Суши"
@@ -275,7 +275,7 @@ export const DATA = {
       "price": 200,
       "image": "assets/catalogue/eel-sushi.jpg",
       "rating": 4.5,
-      "reviews": "",
+      "reviews": "1,8к",
       "weight": "23 г",
       "categories": [
         "Суши"
@@ -287,7 +287,7 @@ export const DATA = {
       "price": 200,
       "image": "assets/catalogue/shrimp-sushi.jpg",
       "rating": 4.5,
-      "reviews": "",
+      "reviews": "1,4к",
       "weight": "23 г",
       "categories": [
         "Суши"
@@ -299,7 +299,7 @@ export const DATA = {
       "price": 205,
       "image": "assets/catalogue/spicy-salmon-gunkan.jpg",
       "rating": 4,
-      "reviews": "",
+      "reviews": "4,1к",
       "weight": "30 г",
       "categories": [
         "Суши"
@@ -311,7 +311,7 @@ export const DATA = {
       "price": 760,
       "image": "assets/catalogue/salmon-sashimi.jpg",
       "rating": 5,
-      "reviews": "",
+      "reviews": "284",
       "weight": "90 г",
       "categories": [
         "Сашими"
@@ -323,7 +323,7 @@ export const DATA = {
       "price": 640,
       "image": "assets/catalogue/tuna-sashimi.jpg",
       "rating": 4.5,
-      "reviews": "",
+      "reviews": "159",
       "weight": "90 г",
       "categories": [
         "Сашими"
@@ -335,7 +335,7 @@ export const DATA = {
       "price": 3230,
       "image": "assets/catalogue/akira-set.jpg",
       "rating": 5,
-      "reviews": "",
+      "reviews": "137",
       "salePrice": 2860,
       "weight": "900 г",
       "categories": [
@@ -349,7 +349,7 @@ export const DATA = {
       "price": 2505,
       "image": "assets/catalogue/fuji-set.jpg",
       "rating": 4.5,
-      "reviews": "",
+      "reviews": "245",
       "salePrice": 2290,
       "weight": "720 г",
       "categories": [
@@ -362,7 +362,7 @@ export const DATA = {
       "price": 540,
       "image": "assets/catalogue/beef-dimsum.jpg",
       "rating": 4.5,
-      "reviews": "",
+      "reviews": "68",
       "weight": "210 г",
       "categories": [
         "Новинки",
@@ -375,7 +375,7 @@ export const DATA = {
       "price": 565,
       "image": "assets/catalogue/tom-yum-shrimp-gyoza.jpg",
       "rating": 5,
-      "reviews": "",
+      "reviews": "174",
       "weight": "170 г",
       "categories": [
         "Новинки",
@@ -388,7 +388,7 @@ export const DATA = {
       "price": 555,
       "image": "assets/catalogue/salmon-shrimp-dimsum.jpg",
       "rating": 4.5,
-      "reviews": "",
+      "reviews": "892",
       "weight": "164 г",
       "categories": [
         "Димсамы"
@@ -400,7 +400,7 @@ export const DATA = {
       "price": 670,
       "image": "assets/catalogue/tom-kha-kai.jpg",
       "rating": 5,
-      "reviews": "",
+      "reviews": "813",
       "weight": "300 г",
       "categories": [
         "Новинки"
@@ -412,7 +412,7 @@ export const DATA = {
       "price": 590,
       "image": "assets/catalogue/duck-ramen.jpg",
       "rating": 4.5,
-      "reviews": "",
+      "reviews": "217",
       "weight": "525 г",
       "categories": []
     },
@@ -422,7 +422,7 @@ export const DATA = {
       "price": 290,
       "image": "assets/catalogue/green-tea-mochi.jpg",
       "rating": 4,
-      "reviews": "",
+      "reviews": "96",
       "weight": "40 г",
       "categories": [
         "Новинки"
