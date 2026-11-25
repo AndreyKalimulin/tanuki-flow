@@ -550,6 +550,7 @@ export const DATA = {
   "promos": [
     {
       "id": "sweet-prices",
+      "storyAction": { "label": "Заказать", "top": 81.8, "height": 7.2 },
       "title": "Сладкие цены",
       "thumb": "assets/overlays/thumbnails/668f1.png",
       "banner": "assets/overlays/1448-19477/ec116.png",
@@ -569,6 +570,7 @@ export const DATA = {
     },
     {
       "id": "repeat-order",
+      "storyAction": { "label": "Промокод SKID15", "top": 84.45, "height": 7.4 },
       "title": "Повторный заказ −15%",
       "thumb": "assets/overlays/thumbnails/e369b.png",
       "banner": "assets/overlays/1448-19530/853e4.png",
@@ -590,6 +592,7 @@ export const DATA = {
     },
     {
       "id": "birthday",
+      "storyAction": { "label": "Подробнее", "top": 84.85, "height": 7.2 },
       "title": "Именинникам −20%",
       "thumb": "assets/overlays/thumbnails/d3cc7.png",
       "banner": "assets/overlays/1448-19586/0be7f.png",
@@ -609,6 +612,7 @@ export const DATA = {
     },
     {
       "id": "cashback",
+      "storyAction": { "label": "Забронировать стол", "top": 81.8, "height": 7.2 },
       "title": "100% кешбэк",
       "thumb": "assets/overlays/thumbnails/93e48.png",
       "banner": "assets/overlays/1448-19639/9b394.png",
